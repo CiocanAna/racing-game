@@ -12,4 +12,8 @@ public class Car {
     boolean damaged= false;
     int doorCount;
 
+
+    //"has-a" relationship (Aggregation)
+    Engine engine
+
 }
