@@ -31,6 +31,10 @@ public class App {
         System.out.println(carReference.maxSpeed);
 
         carReference.accelerate(100, 0.5);
+        System.out.println("Total distance before repair" + carReference. totalTraveledDistance);
+        Mechanic mechanic = new Mechanic();
+        mechanic.repair(carReference);
+
 
 
         System.out.println(carReference.totalTraveledDistance);
@@ -51,8 +55,12 @@ public class App {
         System.out.println(carReference.make);
 
 
+        System.out.println("Modulo (modulus) exemples:");
+        System.out.println(4 % 2);
+        System.out.println(4% 3);
 
-
+        System.out.println("is 4 even?");
+        System.out.println(4 % 2 == 0);
 
 
 

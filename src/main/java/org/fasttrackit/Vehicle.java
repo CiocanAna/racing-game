@@ -30,6 +30,8 @@ public class Vehicle {
 
         return distance;
 
+     public void makeSound ()
+
 
 
         return 10,9;
