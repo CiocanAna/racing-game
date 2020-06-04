@@ -18,9 +18,9 @@ public class App {
         carReference.color = "red";
         carReference.maxSpeed = 300;
 
-        carReference.engine = new Engine();
-        carReference.engine.manufacturer= "vw";
-        carReference.engine.capacity= 1900;
+//        carReference.engine = new Engine();
+//        carReference.engine.manufacturer= "vw";
+//        carReference.engine.capacity= 1900;
 
 
         System.out.println(carReference.make);
@@ -44,5 +44,13 @@ public class App {
         car2 = carReference;
         System.out.println(car2.make);
         System.out.println(carReference.make);
+
+
+
+
+
+
+
+
     }
 }
