@@ -30,6 +30,8 @@ public class App {
         System.out.println(carReference.color);
         System.out.println(carReference.maxSpeed);
 
+        carReference.accelerate(100, 0.5);
+
 
         System.out.println(carReference.totalTraveledDistance);
         System.out.println(carReference.damaged);
@@ -40,6 +42,9 @@ public class App {
         car2.color = "black";
 //concatenation
         System.out.println(car2.make + "" + carReference.make);
+
+
+        car2.make = carReference.make;
 
         car2 = carReference;
         System.out.println(car2.make);
